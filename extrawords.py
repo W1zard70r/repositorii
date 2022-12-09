@@ -16,6 +16,8 @@ for i in range(len(ngl)):
     word.append(ngl[i])
 for i in range(len(word)):
     b+=word[i]
+if a[-1]== 'я' or a[-1]== 'а' :
+    b+='лини'
 if p == 1:
     b+=random.choice(ok)
 print(b)
